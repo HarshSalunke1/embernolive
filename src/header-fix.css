@@ -1,0 +1,10 @@
+/* The reserve control keeps deliberate contrast in both header states. */
+.header .button {
+  background: var(--bone);
+  color: var(--ink);
+}
+
+.header.header-solid .button {
+  background: var(--ink);
+  color: var(--bone);
+}
